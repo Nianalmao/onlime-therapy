@@ -1,0 +1,126 @@
+body{
+background-image: url("bgimage.jpg" );
+background-size: 100% 100%;
+}
+form {
+width: 50%;
+margin: 50px auto;
+text-align: left;
+}
+label {
+display: block;
+margin-bottom: 8px;
+}
+textarea, input[type="text"], input[type="email"] , select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 4px;
+}
+.question{
+color: #ccc;
+font-size: 30px;
+}
+.category{
+    color: #ccc;
+    font-size: 30px;
+    }
+.name{
+color: #ccc;
+font-size: 30px;
+}
+.email{
+color: #ccc;
+font-size: 30px;
+}
+.submit {
+align-items: center;
+background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+border: 0;
+border-radius: 15px;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+line-height: 1em;
+padding: 20px 24px;
+cursor: pointer;
+font-size: 24px;
+min-width: 196px;
+}
+button {
+    transition: 300ms;
+}
+button:hover {
+    background-image: linear-gradient(144deg,#9f25f7, #4d34f1 50%,#04aab6);
+    box-shadow: rgba(140, 39, 255, 0.2) 0 15px 30px -5px;
+    color: #FFFFFF;
+}
+@media(max-width:576px) {
+    body{
+        background-image: url("bgimage.jpg" );
+        background-size: 100% 100%;
+        }
+        form {
+        width: 50%;
+        margin: 50px auto;
+        text-align: left;
+        }
+        label {
+        display: block;
+        margin-bottom: 8px;
+        }
+        textarea, input[type="text"], input[type="email"] , select {
+        width: 100%;
+        padding: 12px 8px;
+        margin: 8px 0;
+        width: 200px;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        }
+        ::placeholder {
+            font-size: xx-small;
+        }
+        .question{
+        color: #ccc;
+        font-size: 18px;
+        }
+        .category{
+            color: #ccc;
+            font-size: 18px;
+            }
+        .name{
+        color: #ccc;
+        font-size: 18px;
+        }
+        .email{
+        color: #ccc;
+        font-size: 18px;
+        }
+        .submit {
+        align-items: center;
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+        border: 0;
+        border-radius: 15px;
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        line-height: 1em;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 12px;
+        min-width: 196px;
+        }
+        button {
+            transition: 300ms;
+        }
+        button:hover {
+            background-image: linear-gradient(144deg,#9f25f7, #4d34f1 50%,#04aab6);
+            box-shadow: rgba(140, 39, 255, 0.2) 0 15px 30px -5px;
+            color: #FFFFFF;
+        }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online therapy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/send-question" method="post">
+        <label for="category"> <div class="category">your problem revolves around:</div></label><br>
+        <select name="category" id="category">
+            <option value="none below">None below</option>
+            <option value="family issues">family issues</option>
+            <option value="heartbreak">heart break</option>
+            <option value="one sided love">one sided love</option>
+            <option value="losing a friend">losing a friend</option>
+            <option value="someonechanging">someone changing</option>
+            <option value="self hatred">self hatred</option>
+            <option value="scared you're gonna break someone's heart">scared you're gonna break someone's heart</option>
+        </select>
+        <label for="question" ><div class="question">Tell me about it</div> </label><br>
+        <textarea id="question" name="question" rows="4" cols="50" placeholder="type here"></textarea><br>
+        <label for="name" ><div class="name">Your name:</div> </label><br>
+        <input type="text" id="name" name="name" placeholder="type you name"><br>
+        <label for="email" ><div class="email"> Your email(not required):</div></label><br>
+        <input type="email" id="email" name="email" placeholder="type your email if you want an answer back"><br><br>
+        <button class="submit" role="button">Submit</button>
+    </form>
+</body>
+</html>
